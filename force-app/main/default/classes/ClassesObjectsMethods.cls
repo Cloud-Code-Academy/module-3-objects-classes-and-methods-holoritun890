@@ -290,7 +290,8 @@ for (Integer i = 0; i < scientistNames.size(); i++) {
 
         // Subtract the difference in years
 
-        Integer resultQ10 = d1.year() - d2.year();
+       Integer resultQ10 = Math.abs(d1.year() - d2.year());
+
 
         return resultQ10; // Replace null with the variable you used to store the result
     }
